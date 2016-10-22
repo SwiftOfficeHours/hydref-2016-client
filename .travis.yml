@@ -1,11 +1,11 @@
 language: objective-c
 osx_image: xcode8
-xcode_workspace: ServerClient.xcworkspace # path to your xcodeproj folder
+xcode_workspace: ServerClient.xcworkspace
 xcode_scheme: ServerClient
 
 
 env:
-  -EARLY_START_SIMULATOR=1 # early starting simulator reduces false negatives due to test timeouts
+  -EARLY_START_SIMULATOR=1
 
 
 after_success:
