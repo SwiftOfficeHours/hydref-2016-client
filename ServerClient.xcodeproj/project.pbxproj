@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		686204D61DBBF7C3009BE7D7 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686204D41DBBF7C3009BE7D7 /* Image.swift */; };
+		686204D71DBBF7C3009BE7D7 /* ImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686204D51DBBF7C3009BE7D7 /* ImageList.swift */; };
+		686204D91DBBF7F6009BE7D7 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686204D81DBBF7F6009BE7D7 /* ViewControllerViewModel.swift */; };
 		68C629941DB94E7F00EDBB38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C629931DB94E7F00EDBB38 /* AppDelegate.swift */; };
 		68C629961DB94E7F00EDBB38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C629951DB94E7F00EDBB38 /* ViewController.swift */; };
 		68C629991DB94E7F00EDBB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C629971DB94E7F00EDBB38 /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 		1091278F89D781D23F906453 /* Pods-ServerClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServerClientTests/Pods-ServerClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		1105521100F2C9F775C766AB /* Pods_ServerClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServerClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C4BA42D00F0DD84F952C30 /* Pods-ServerClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServerClientTests/Pods-ServerClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		686204D41DBBF7C3009BE7D7 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		686204D51DBBF7C3009BE7D7 /* ImageList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageList.swift; sourceTree = "<group>"; };
+		686204D81DBBF7F6009BE7D7 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
 		68C629901DB94E7F00EDBB38 /* ServerClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C629931DB94E7F00EDBB38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68C629951DB94E7F00EDBB38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +81,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		686204D31DBBF7AE009BE7D7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				686204D41DBBF7C3009BE7D7 /* Image.swift */,
+				686204D51DBBF7C3009BE7D7 /* ImageList.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		68C629871DB94E7E00EDBB38 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +113,10 @@
 		68C629921DB94E7F00EDBB38 /* ServerClient */ = {
 			isa = PBXGroup;
 			children = (
+				686204D31DBBF7AE009BE7D7 /* models */,
 				68C629931DB94E7F00EDBB38 /* AppDelegate.swift */,
 				68C629951DB94E7F00EDBB38 /* ViewController.swift */,
+				686204D81DBBF7F6009BE7D7 /* ViewControllerViewModel.swift */,
 				68C629971DB94E7F00EDBB38 /* Main.storyboard */,
 				68C6299A1DB94E7F00EDBB38 /* Assets.xcassets */,
 				68C6299C1DB94E7F00EDBB38 /* LaunchScreen.storyboard */,
@@ -332,6 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C629961DB94E7F00EDBB38 /* ViewController.swift in Sources */,
+				686204D71DBBF7C3009BE7D7 /* ImageList.swift in Sources */,
+				686204D91DBBF7F6009BE7D7 /* ViewControllerViewModel.swift in Sources */,
+				686204D61DBBF7C3009BE7D7 /* Image.swift in Sources */,
 				68C629941DB94E7F00EDBB38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
