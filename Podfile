@@ -6,6 +6,8 @@ target 'ServerClient' do
   use_frameworks!
 
   # Pods for ServerClient
+  pod 'Alamofire'
+  pod 'Genome'
 
   target 'ServerClientTests' do
     inherit! :search_paths
