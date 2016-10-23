@@ -11,6 +11,8 @@ import Alamofire
 
 final class ViewControllerViewModel {
 
+    
+
     func getList() {
         Alamofire.request("http://localhost:8080/list")
             .validate(statusCode: 200..<300)
