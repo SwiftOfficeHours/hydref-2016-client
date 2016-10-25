@@ -7,6 +7,7 @@ target 'ServerClient' do
 
   # Pods for ServerClient
   pod 'Alamofire'
+  pod 'AlamofireImage'
   pod 'Genome'
 
   target 'ServerClientTests' do
